@@ -1,0 +1,20 @@
+continue: it skips the iteration
+            it can be used in while ,do-while and for
+return: it stops the function execution it can be used in fun as alast statement 
+exit() : it stops the program execution it can be placed ANYwhere in program
+break: break stops the loop execution it can be used in while,do-while and switch
+------------------------------------------------------------------------------------------
+
+class loops
+{
+   public static void main(String args[])
+{
+int i:
+for(i=1;i<=10;i++)
+{
+if(i==3||i==5||i==7||i==9)
+comtinue;
+system.out.println(i+" ");
+}
+}
+}
